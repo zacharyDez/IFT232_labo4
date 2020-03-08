@@ -2,6 +2,9 @@ package videoStore;
 
 public class Price {
 
+    public static final int NEW_RELEASE = 1;
+    public static final int REGULAR = 0;
+    public static final int CHILDRENS = 2;
     private int priceCode_;
 
     public Price(int priceCode) {
@@ -17,15 +20,15 @@ public class Price {
 
         // determines amount for each line
         switch (priceCode_) {
-            case Movie.REGULAR:
+            case REGULAR:
                 thisAmount += 2;
                 if (rental.getDaysRented() > 2)
                     thisAmount += (rental.getDaysRented() - 2) * 1.5;
                 break;
-            case Movie.NEW_RELEASE:
+            case NEW_RELEASE:
                 thisAmount += rental.getDaysRented() * 3;
                 break;
-            case Movie.CHILDRENS:
+            case CHILDRENS:
                 thisAmount += 1.5;
                 if (rental.getDaysRented() > 3)
                     thisAmount += (rental.getDaysRented() - 3) * 1.5;
@@ -35,7 +38,7 @@ public class Price {
     }
 
     public int points() {
-        if (priceCode_ == Movie.NEW_RELEASE)
+        if (priceCode_ == NEW_RELEASE)
             return 2;
         return 1;
     }
