@@ -9,37 +9,34 @@ package videoStore;
 import java.time.LocalDate;
 
 public class Rental {
-	private int daysRented;
-	public Movie movie;
+    private int daysRented;
+    public Movie movie;
 
-	private LocalDate date;
+    private LocalDate date;
 
-	public Rental(Movie movie, LocalDate initialDate, int daysRented) {
-		this.movie = movie;
-		this.daysRented = daysRented;
-		date = initialDate;
-	}
+    public Rental(Movie movie, LocalDate initialDate, int daysRented) {
+        this.movie = movie;
+        this.daysRented = daysRented;
+        date = initialDate;
+    }
 
-	public Rental(Movie movie, int daysRented) {
-		this(movie, LocalDate.now(), daysRented);
-	}
+    public Rental(Movie movie, int daysRented) {
+        this(movie, LocalDate.now(), daysRented);
+    }
 
-	public int getDaysRented() {
-		return daysRented;
-	}
+    public int getDaysRented() {
+        return daysRented;
+    }
 
-	public Movie getMovie() {
-		return movie;
-	}
+    public Movie getMovie() {
+        return movie;
+    }
 
-	public LocalDate getDate() {
-		return date;
-	}
+    public LocalDate getDate() {
+        return date;
+    }
 
-	public int points() {
-
-		if (getMovie().getPriceCode() == Movie.NEW_RELEASE)
-			return 2;
-		return 1;
-	}
+    public int points() {
+        return movie.getPriceCode().points();
+    }
 }

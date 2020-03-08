@@ -19,44 +19,26 @@ public class Movie {
 	public static final int CHILDRENS = 2;
 
 	private java.lang.String title_;
-	private int priceCode_;
+	private Price priceCode_;
 
 	public Movie(String title, int priceCode) {
 		title_ = title;
-		priceCode_ = priceCode;
+		priceCode_ = new Price(priceCode);
 	}
 
 	public java.lang.String getTitle() {
 		return title_;
 	}
 
-	public int getPriceCode() {
+	public Price getPriceCode() {
 		return priceCode_;
 	}
 
 	public void setPriceCode(int newCode) {
-		priceCode_ = newCode;
+		priceCode_.setPriceCode_(newCode);
 	}
 
 	public double amount(Rental rental) {
-		double thisAmount = 0;
-
-		// determines amount for each line
-		switch (getPriceCode()) {
-		case REGULAR:
-			thisAmount += 2;
-			if (rental.getDaysRented() > 2)
-				thisAmount += (rental.getDaysRented() - 2) * 1.5;
-			break;
-		case NEW_RELEASE:
-			thisAmount += rental.getDaysRented() * 3;
-			break;
-		case CHILDRENS:
-			thisAmount += 1.5;
-			if (rental.getDaysRented() > 3)
-				thisAmount += (rental.getDaysRented() - 3) * 1.5;
-			break;
-		}
-		return thisAmount;
+		return priceCode_.amount(rental);
 	}
 }
