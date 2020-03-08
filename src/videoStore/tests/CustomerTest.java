@@ -18,13 +18,14 @@ public class CustomerTest {
 
 	@Before
 	public void setup() {
-		movies = new Movie[5];
+		movies = new Movie[6];
 
 		movies[0] = Movie.createChildrenMovie("Caillou a le cancer");
 		movies[1] = Movie.createNewReleaseMovie("Fast and furious 38: Diesel Cars vs Google Cars");
 		movies[2] = Movie.createNewReleaseMovie("31 Jump Street: Ninja Academy");
 		movies[3] = Movie.createRegularMovie("Les oiseaux se cachent pour mourir");
 		movies[4] = Movie.createRegularMovie("Les gars chauds se cachent pour vomir");
+		movies[5] = Movie.createUnpopularMovie("Very unpopular movie");
 
 		grandmaman = new Customer("Grand-moman");
 
@@ -33,7 +34,8 @@ public class CustomerTest {
 		grandmaman.addRentals(new Rental(movies[2], 2));
 		grandmaman.addRentals(new Rental(movies[3], 7));
 		grandmaman.addRentals(new Rental(movies[4], 1));
-		
+		grandmaman.addRentals(new Rental(movies[5], 30));
+
 		/*Exemple de création de location avec une date passée*/
 		String str = "2018-12-12";
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
@@ -46,14 +48,13 @@ public class CustomerTest {
 
 	@Test
 	public void testTotalAmount() {
-
-		assertEquals(grandmaman.totalAmount(), 23.5, 0.0001);
+		assertEquals(grandmaman.totalAmount(), 25.5, 0.0001);
 	}
 
 	@Test
 	public void testTotalPoints() {
 
-		assertEquals(grandmaman.totalPoints(), 7);
+		assertEquals(grandmaman.totalPoints(), 10);
 	}
 
 	@After

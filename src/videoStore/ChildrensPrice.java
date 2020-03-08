@@ -3,8 +3,8 @@ package videoStore;
 public class ChildrensPrice extends Price {
     public static final int MOV_CODE = 2;
 
-    public ChildrensPrice(int priceCode) {
-        super(priceCode);
+    public ChildrensPrice() {
+        super(MOV_CODE);
     }
 
     @Override

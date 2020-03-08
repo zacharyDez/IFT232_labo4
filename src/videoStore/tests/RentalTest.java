@@ -14,15 +14,14 @@ public class RentalTest {
 	private Movie childMovie;
 	private Movie regularMovie;
 	private Movie newMovie;
+	private Movie unpopularMovie;
 	
 	@Before
 	public void setup() {
-		
-		
-
 		childMovie = Movie.createChildrenMovie("Caillou a le cancer");
 		newMovie = Movie.createNewReleaseMovie("31 Jump Street: Ninja Academy");
 		regularMovie = Movie.createRegularMovie("Les oiseaux se cachent pour mourir");
+		unpopularMovie = Movie.createUnpopularMovie("Very unpopular movie");
 	}
 	
 	
@@ -36,8 +35,10 @@ public class RentalTest {
 		Rental reg1day = new Rental(regularMovie,1);
 		Rental reg2days = new Rental(regularMovie,2);
 		Rental reg5days = new Rental(regularMovie,5);
-		
-		
+		Rental unpop1days = new Rental(unpopularMovie, 1);
+		Rental unpop3days = new Rental(unpopularMovie, 3);
+		Rental unpop5days = new Rental(unpopularMovie, 5);
+
 		assertEquals(child1day.movie.amount(child1day),1.5,EPSILON);
 		assertEquals(child1day.movie.amount(child1day), child3days.movie.amount(child3days),EPSILON);
 		assertEquals(child5days.movie.amount(child5days),4.5,EPSILON);
@@ -46,7 +47,10 @@ public class RentalTest {
 		assertEquals(reg5days.movie.amount(reg5days),6.5,EPSILON);
 		assertEquals(new1day.movie.amount(new1day),3.0,EPSILON);
 		assertEquals(new5days.movie.amount(new5days),15.0,EPSILON);
-		
+		assertEquals(unpop1days.movie.amount(unpop1days), 2, EPSILON);
+		assertEquals(unpop3days.movie.amount(unpop3days), 2, EPSILON);
+		assertEquals(unpop5days.movie.amount(unpop5days), 2, EPSILON);
+
 	}
 	
 	@Test
@@ -54,10 +58,13 @@ public class RentalTest {
 		Rental childrens = new Rental(childMovie,1);		
 		Rental newrelease = new Rental(newMovie,1);	
 		Rental regular = new Rental(regularMovie,5);
-		
+		Rental unpopular = new Rental(unpopularMovie, 1);
+
 		assertEquals(newrelease.points(),2);	
 		assertEquals(childrens.points(),1);	
-		assertEquals(regular.points(),1);	
+		assertEquals(regular.points(),1);
+
+		assertEquals(unpopular.points(), 3);
 	}
 	
 	

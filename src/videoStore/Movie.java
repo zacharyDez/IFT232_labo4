@@ -24,21 +24,27 @@ public class Movie {
 
     public static Movie createChildrenMovie(String title){
         Movie m = new Movie(title);
-		m.priceCode_ = new ChildrensPrice(ChildrensPrice.MOV_CODE);
+		m.priceCode_ = new ChildrensPrice();
 		return m;
 	}
 
 	public static Movie createRegularMovie(String title){
         Movie m = new Movie(title);
-        m.priceCode_ = new RegularPrice(RegularPrice.MOV_CODE);
+        m.priceCode_ = new RegularPrice();
         return m;
 	}
 
 	public static Movie createNewReleaseMovie(String title){
         Movie m = new Movie(title);
-        m.priceCode_ = new NewReleasePrice(NewReleasePrice.MOV_CODE);
+        m.priceCode_ = new NewReleasePrice();
         return m;
 	}
+
+    public static Movie createUnpopularMovie(String title){
+        Movie m = new Movie(title);
+        m.priceCode_ = new UnpopularPrice();
+        return m;
+    }
 	
     public java.lang.String getTitle() {
         return title_;

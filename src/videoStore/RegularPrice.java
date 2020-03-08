@@ -3,8 +3,8 @@ package videoStore;
 public class RegularPrice extends Price {
     public static final int MOV_CODE = 0;
 
-    public RegularPrice(int priceCode) {
-        super(priceCode);
+    public RegularPrice() {
+        super(MOV_CODE);
     }
 
     @Override
