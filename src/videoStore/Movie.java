@@ -19,8 +19,15 @@ public class Movie {
 	private Price priceCode_;
 
 	public Movie(String title, int priceCode) {
+		// TODO: remove switch pseudo
 		title_ = title;
-		priceCode_ = new Price(priceCode);
+		if(priceCode==Price.NEW_RELEASE){
+			priceCode_ = new NewReleasePrice(priceCode);
+		} else if(priceCode==Price.REGULAR){
+			priceCode_ = new RegularPrice(priceCode);
+		} else if(priceCode==Price.CHILDRENS){
+			priceCode_ = new ChildrensPrice(priceCode);
+		}
 	}
 
 	public java.lang.String getTitle() {
