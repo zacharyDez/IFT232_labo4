@@ -9,10 +9,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import videoStore.Customer;
-import videoStore.Movie;
-import videoStore.Price;
-import videoStore.Rental;
+import videoStore.*;
 
 public class CustomerTest {
 
@@ -23,11 +20,11 @@ public class CustomerTest {
 	public void setup() {
 		movies = new Movie[5];
 
-		movies[0] = new Movie("Caillou a le cancer", Price.CHILDRENS);
-		movies[1] = new Movie("Fast and furious 38: Diesel Cars vs Google Cars", Price.NEW_RELEASE);
-		movies[2] = new Movie("31 Jump Street: Ninja Academy", Price.NEW_RELEASE);
-		movies[3] = new Movie("Les oiseaux se cachent pour mourir", Price.REGULAR);
-		movies[4] = new Movie("Les gars chauds se cachent pour vomir", Price.REGULAR);
+		movies[0] = Movie.createChildrenMovie("Caillou a le cancer");
+		movies[1] = Movie.createNewReleaseMovie("Fast and furious 38: Diesel Cars vs Google Cars");
+		movies[2] = Movie.createNewReleaseMovie("31 Jump Street: Ninja Academy");
+		movies[3] = Movie.createRegularMovie("Les oiseaux se cachent pour mourir");
+		movies[4] = Movie.createRegularMovie("Les gars chauds se cachent pour vomir");
 
 		grandmaman = new Customer("Grand-moman");
 

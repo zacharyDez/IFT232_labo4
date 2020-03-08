@@ -9,40 +9,50 @@ package videoStore;
 /**
  * M. Fowler, et al., Refactoring, Improving the design of existing code,
  * Addison-Wiley, 2000. Exemple Chapitre 1
- * 
+ * <p>
  * The class Movie is just a simple data class
  */
 
 public class Movie {
 
-	private java.lang.String title_;
-	private Price priceCode_;
+    private java.lang.String title_;
+    private Price priceCode_;
+    
+    private Movie(String title) {
+        title_ = title;
+    }
 
-	public Movie(String title, int priceCode) {
-		// TODO: remove switch pseudo
-		title_ = title;
-		if(priceCode==Price.NEW_RELEASE){
-			priceCode_ = new NewReleasePrice(priceCode);
-		} else if(priceCode==Price.REGULAR){
-			priceCode_ = new RegularPrice(priceCode);
-		} else if(priceCode==Price.CHILDRENS){
-			priceCode_ = new ChildrensPrice(priceCode);
-		}
+    public static Movie createChildrenMovie(String title){
+        Movie m = new Movie(title);
+		m.priceCode_ = new ChildrensPrice(ChildrensPrice.MOV_CODE);
+		return m;
 	}
 
-	public java.lang.String getTitle() {
-		return title_;
+	public static Movie createRegularMovie(String title){
+        Movie m = new Movie(title);
+        m.priceCode_ = new RegularPrice(RegularPrice.MOV_CODE);
+        return m;
 	}
 
-	public Price getPriceCode() {
-		return priceCode_;
+	public static Movie createNewReleaseMovie(String title){
+        Movie m = new Movie(title);
+        m.priceCode_ = new NewReleasePrice(NewReleasePrice.MOV_CODE);
+        return m;
 	}
+	
+    public java.lang.String getTitle() {
+        return title_;
+    }
 
-	public void setPriceCode(int newCode) {
-		priceCode_.setPriceCode_(newCode);
-	}
+    public Price getPriceCode() {
+        return priceCode_;
+    }
 
-	public double amount(Rental rental) {
-		return priceCode_.amount(rental);
-	}
+    public void setPriceCode(int newCode) {
+        priceCode_.setPriceCode_(newCode);
+    }
+
+    public double amount(Rental rental) {
+        return priceCode_.amount(rental);
+    }
 }

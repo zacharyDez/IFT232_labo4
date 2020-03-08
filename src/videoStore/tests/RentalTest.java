@@ -6,9 +6,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import videoStore.Movie;
-import videoStore.Price;
-import videoStore.Rental;
+import videoStore.*;
 
 public class RentalTest {
 	
@@ -22,9 +20,9 @@ public class RentalTest {
 		
 		
 
-		childMovie = new Movie("Caillou a le cancer", Price.CHILDRENS);
-		newMovie = new Movie("31 Jump Street: Ninja Academy", Price.NEW_RELEASE);
-		regularMovie = new Movie("Les oiseaux se cachent pour mourir", Price.REGULAR);
+		childMovie = Movie.createChildrenMovie("Caillou a le cancer");
+		newMovie = Movie.createNewReleaseMovie("31 Jump Street: Ninja Academy");
+		regularMovie = Movie.createRegularMovie("Les oiseaux se cachent pour mourir");
 	}
 	
 	
