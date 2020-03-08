@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="181a4442-43ed-4c84-a4b6-b1b5d8aaf3d6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/videoStore/ChildrensPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoStore/ChildrensPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pers_labo4/videoStore/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pers_labo4/videoStore/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pers_labo4/videoStore/tests/RentalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pers_labo4/videoStore/tests/RentalTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/videoStore/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoStore/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/videoStore/NewReleasePrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoStore/NewReleasePrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/videoStore/RegularPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoStore/RegularPrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/videoStore/tests/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoStore/tests/CustomerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/videoStore/tests/RentalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoStore/tests/RentalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583684326300</updated>
-      <workItem from="1583684333022" duration="8770000" />
+      <workItem from="1583684333022" duration="12577000" />
     </task>
     <servers />
   </component>
@@ -106,6 +104,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1583698395875">
+      <screen x="0" y="0" width="1280" height="732" />
+    </state>
+    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1280.732@0.0.1280.732" timestamp="1583698395875" />
     <state x="446" y="160" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583688777722">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
@@ -118,26 +120,42 @@
       <screen x="0" y="0" width="1280" height="732" />
     </state>
     <state x="359" y="116" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1280.732@0.0.1280.732" timestamp="1583688778888" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1583697847051">
+    <state width="1238" height="263" key="GridCell.Tab.0.bottom" timestamp="1583701740449">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.732@0.0.1280.732" timestamp="1583697847051" />
+    <state width="1238" height="263" key="GridCell.Tab.0.bottom/0.0.1280.732@0.0.1280.732" timestamp="1583701740449" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1583688832059" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1583697847049">
+    <state width="1238" height="263" key="GridCell.Tab.0.center" timestamp="1583701740448">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.732@0.0.1280.732" timestamp="1583697847049" />
+    <state width="1238" height="263" key="GridCell.Tab.0.center/0.0.1280.732@0.0.1280.732" timestamp="1583701740448" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1583688832057" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1583697847049">
+    <state width="1238" height="263" key="GridCell.Tab.0.left" timestamp="1583701740447">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.732@0.0.1280.732" timestamp="1583697847049" />
+    <state width="1238" height="263" key="GridCell.Tab.0.left/0.0.1280.732@0.0.1280.732" timestamp="1583701740447" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1583688832057" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1583697847050">
+    <state width="1238" height="263" key="GridCell.Tab.0.right" timestamp="1583701740449">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.732@0.0.1280.732" timestamp="1583697847050" />
+    <state width="1238" height="263" key="GridCell.Tab.0.right/0.0.1280.732@0.0.1280.732" timestamp="1583701740449" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1583688832058" />
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1583701742332">
+      <screen x="0" y="0" width="1280" height="732" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.0.1280.732@0.0.1280.732" timestamp="1583701742332" />
+    <state width="1238" height="263" key="GridCell.Tab.1.center" timestamp="1583701742326">
+      <screen x="0" y="0" width="1280" height="732" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.center/0.0.1280.732@0.0.1280.732" timestamp="1583701742326" />
+    <state width="1238" height="263" key="GridCell.Tab.1.left" timestamp="1583701742323">
+      <screen x="0" y="0" width="1280" height="732" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.left/0.0.1280.732@0.0.1280.732" timestamp="1583701742323" />
+    <state width="1238" height="263" key="GridCell.Tab.1.right" timestamp="1583701742330">
+      <screen x="0" y="0" width="1280" height="732" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.right/0.0.1280.732@0.0.1280.732" timestamp="1583701742330" />
     <state x="128" y="0" key="SettingsEditor" timestamp="1583684600268">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
@@ -154,5 +172,21 @@
       <screen x="0" y="0" width="1280" height="732" />
     </state>
     <state x="347" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.732@0.0.1280.732" timestamp="1583690894811" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/videoStore/Movie.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/videoStore/Movie.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

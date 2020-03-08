@@ -1,0 +1,52 @@
+package videoStore;
+
+import java.time.LocalDate;
+import java.util.*;
+
+public class DatePrice {
+
+    HashMap<LocalDate, Price> prices = new HashMap<>();
+
+    public void addPrice(LocalDate date, Price price){
+        prices.put(date, price);
+    }
+
+    public double findPriceByDate(Rental rental, LocalDate date){
+
+        Price priceCode;
+
+        if(prices.isEmpty()){
+            throw new IllegalArgumentException();
+        }
+
+        ArrayList<LocalDate> dateList = new ArrayList<>(prices.keySet());
+
+        // if size is one simply return price
+        if(prices.size()==1){
+            priceCode = prices.get(dateList.get(0));
+            return priceCode.amount(rental);
+        }
+
+        Collections.sort(dateList);
+        // used to check both dates
+        LocalDate before = dateList.get(0);
+        LocalDate after = dateList.get(1);
+
+        // find last price corresponding
+        int i = 0;
+        while(i+1!=dateList.size()){
+            if(date.isAfter(before) && date.isBefore(after)){
+                priceCode = prices.get(dateList.get(i));
+                return priceCode.amount(rental);
+            }
+            i++;
+        }
+
+        // reached last element in datelist
+        priceCode = prices.get(dateList.get(dateList.size()-1));
+        return priceCode.amount(rental);
+
+    }
+
+
+}

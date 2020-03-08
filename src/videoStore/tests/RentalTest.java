@@ -8,6 +8,8 @@ import org.junit.Test;
 
 import videoStore.*;
 
+import java.time.LocalDate;
+
 public class RentalTest {
 	
 	private final double EPSILON = 0.01;
@@ -18,10 +20,10 @@ public class RentalTest {
 	
 	@Before
 	public void setup() {
-		childMovie = Movie.createChildrenMovie("Caillou a le cancer");
-		newMovie = Movie.createNewReleaseMovie("31 Jump Street: Ninja Academy");
-		regularMovie = Movie.createRegularMovie("Les oiseaux se cachent pour mourir");
-		unpopularMovie = Movie.createUnpopularMovie("Very unpopular movie");
+		childMovie = Movie.createChildrenMovie("Caillou a le cancer", LocalDate.now());
+		newMovie = Movie.createNewReleaseMovie("31 Jump Street: Ninja Academy", LocalDate.now());
+		regularMovie = Movie.createRegularMovie("Les oiseaux se cachent pour mourir", LocalDate.now());
+		unpopularMovie = Movie.createUnpopularMovie("Very unpopular movie", LocalDate.now());
 	}
 	
 	
