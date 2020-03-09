@@ -5,13 +5,17 @@ import java.util.*;
 
 public class DatePrice {
 
-    HashMap<LocalDate, Price> prices = new HashMap<>();
+    HashMap<LocalDate, Price> prices;
+
+    public DatePrice(){
+        prices = new HashMap<>();
+    }
 
     public void addPrice(LocalDate date, Price price){
         prices.put(date, price);
     }
 
-    public double findPriceByDate(Rental rental, LocalDate date){
+    public Price findPriceByDate(LocalDate date){
 
         Price priceCode;
 
@@ -23,8 +27,8 @@ public class DatePrice {
 
         // if size is one simply return price
         if(prices.size()==1){
-            priceCode = prices.get(dateList.get(0));
-            return priceCode.amount(rental);
+            return prices.get(dateList.get(0));
+
         }
 
         Collections.sort(dateList);
@@ -36,15 +40,13 @@ public class DatePrice {
         int i = 0;
         while(i+1!=dateList.size()){
             if(date.isAfter(before) && date.isBefore(after)){
-                priceCode = prices.get(dateList.get(i));
-                return priceCode.amount(rental);
+                return prices.get(dateList.get(i));
             }
             i++;
         }
 
         // reached last element in datelist
-        priceCode = prices.get(dateList.get(dateList.size()-1));
-        return priceCode.amount(rental);
+        return prices.get(dateList.get(dateList.size()-1));
 
     }
 

@@ -18,7 +18,7 @@ import java.time.LocalDate;
 public class Movie {
 
     private java.lang.String title_;
-    private DatePrice prices;
+    private DatePrice prices = new DatePrice();
     private Price recentPriceCode;
     
     private Movie(String title) {
@@ -86,7 +86,7 @@ public class Movie {
     }
 
     public double amount(Rental rental, LocalDate date) {
-        return prices.findPriceByDate(rental, date);
+        return prices.findPriceByDate(date).amount(rental);
     }
 
 }
