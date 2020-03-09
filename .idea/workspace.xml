@@ -49,7 +49,7 @@
       <recent name="videoStore.Price" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerTest.testChangeAmount">
+  <component name="RunManager" selected="JUnit.videoStore.tests in pers_labo4">
     <configuration name="CustomerTest.testChangeAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pers_labo4" />
       <extension name="coverage">
@@ -130,10 +130,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.videoStore.tests in pers_labo4" />
         <item itemvalue="JUnit.CustomerTest.testChangeAmount" />
         <item itemvalue="JUnit.DatePriceTest.testGetPrice" />
         <item itemvalue="JUnit.RentalTest.testChangePrice" />
-        <item itemvalue="JUnit.videoStore.tests in pers_labo4" />
         <item itemvalue="JUnit.DatePriceTest.testAddDate" />
       </list>
     </recent_temporary>
@@ -189,25 +189,25 @@
       <screen x="0" y="0" width="1280" height="732" />
     </state>
     <state x="359" y="116" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1280.732@0.0.1280.732" timestamp="1583688778888" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1583769521753">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1583770018354">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.732@0.0.1280.732" timestamp="1583769521753" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.732@0.0.1280.732" timestamp="1583770018354" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1583688832059" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1583769521752">
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1583770018353">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.732@0.0.1280.732" timestamp="1583769521752" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.732@0.0.1280.732" timestamp="1583770018353" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1583688832057" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1583769521751">
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1583770018352">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.732@0.0.1280.732" timestamp="1583769521751" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.732@0.0.1280.732" timestamp="1583770018352" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1583688832057" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1583769521753">
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1583770018354">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.732@0.0.1280.732" timestamp="1583769521753" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.732@0.0.1280.732" timestamp="1583770018354" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1583688832058" />
     <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1583769294492">
       <screen x="0" y="0" width="1280" height="732" />

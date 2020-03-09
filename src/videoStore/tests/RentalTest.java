@@ -89,7 +89,7 @@ public class RentalTest {
 
 		assertEquals(3, childMovie.amount(childrens, d1), EPSILON);
 		assertEquals(2, childMovie.amount(childrens, d2), EPSILON);
-		assertEquals(1.5, childMovie.amount(childrens, LocalDate.now()));
+		assertEquals(1.5, childMovie.amount(childrens, LocalDate.now()), EPSILON);
 	}
 	
 	
