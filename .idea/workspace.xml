@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="181a4442-43ed-4c84-a4b6-b1b5d8aaf3d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pers_labo4/videoStore/DatePrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pers_labo4/videoStore/DatePrice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pers_labo4/videoStore/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pers_labo4/videoStore/Movie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pers_labo4/videoStore/tests/DatePriceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pers_labo4/videoStore/tests/DatePriceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pers_labo4/videoStore/tests/RentalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pers_labo4/videoStore/tests/RentalTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/videoStore/DatePrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoStore/DatePrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/videoStore/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoStore/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/videoStore/tests/DatePriceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoStore/tests/DatePriceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/videoStore/tests/RentalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoStore/tests/RentalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/videoStore/tests/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoStore/tests/CustomerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +49,23 @@
       <recent name="videoStore.Price" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DatePriceTest.testGetPrice">
+  <component name="RunManager" selected="JUnit.CustomerTest.testChangeAmount">
+    <configuration name="CustomerTest.testChangeAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pers_labo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="videoStore.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="videoStore.tests" />
+      <option name="MAIN_CLASS_NAME" value="videoStore.tests.CustomerTest" />
+      <option name="METHOD_NAME" value="testChangeAmount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DatePriceTest.testAddDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pers_labo4" />
       <extension name="coverage">
@@ -122,6 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerTest.testChangeAmount" />
         <item itemvalue="JUnit.DatePriceTest.testGetPrice" />
         <item itemvalue="JUnit.RentalTest.testChangePrice" />
         <item itemvalue="JUnit.videoStore.tests in pers_labo4" />
@@ -180,25 +189,25 @@
       <screen x="0" y="0" width="1280" height="732" />
     </state>
     <state x="359" y="116" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1280.732@0.0.1280.732" timestamp="1583688778888" />
-    <state width="1238" height="263" key="GridCell.Tab.0.bottom" timestamp="1583769294489">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1583769521753">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.0.bottom/0.0.1280.732@0.0.1280.732" timestamp="1583769294489" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.732@0.0.1280.732" timestamp="1583769521753" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1583688832059" />
-    <state width="1238" height="263" key="GridCell.Tab.0.center" timestamp="1583769294487">
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1583769521752">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.0.center/0.0.1280.732@0.0.1280.732" timestamp="1583769294487" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.732@0.0.1280.732" timestamp="1583769521752" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1583688832057" />
-    <state width="1238" height="263" key="GridCell.Tab.0.left" timestamp="1583769294486">
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1583769521751">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.0.left/0.0.1280.732@0.0.1280.732" timestamp="1583769294486" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.732@0.0.1280.732" timestamp="1583769521751" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1583688832057" />
-    <state width="1238" height="263" key="GridCell.Tab.0.right" timestamp="1583769294488">
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1583769521753">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.0.right/0.0.1280.732@0.0.1280.732" timestamp="1583769294488" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.732@0.0.1280.732" timestamp="1583769521753" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1583688832058" />
     <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1583769294492">
       <screen x="0" y="0" width="1280" height="732" />
