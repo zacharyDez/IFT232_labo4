@@ -1,5 +1,7 @@
 package videoStore;
 
+import org.junit.After;
+
 import java.time.LocalDate;
 import java.util.*;
 
@@ -32,13 +34,22 @@ public class DatePrice {
         }
 
         Collections.sort(dateList);
-        // used to check both dates
-        LocalDate before = dateList.get(0);
-        LocalDate after = dateList.get(1);
 
         // find last price corresponding
         int i = 0;
         while(i+1!=dateList.size()){
+            // used to check both dates
+            LocalDate before = dateList.get(i);
+            LocalDate after = dateList.get(i+1);
+
+            if(date.isEqual(before)){
+                return prices.get(dateList.get(i));
+            }
+
+            if(date.isEqual(after)){
+                return prices.get(dateList.get(i+1));
+            }
+
             if(date.isAfter(before) && date.isBefore(after)){
                 return prices.get(dateList.get(i));
             }

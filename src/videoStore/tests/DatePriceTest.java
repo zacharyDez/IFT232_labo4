@@ -17,17 +17,19 @@ public class DatePriceTest {
     String strDate1 = "2018-12-12";
     DatePrice dp;
     Price p;
-    Rental r;
-    Movie m = Movie.createUnpopularMovie("Caillou a le cancer", d);
+    Price p2;
 
+    String strDate2 = "2020-01-01";
+    LocalDate d2 = LocalDate.parse(strDate2, formatter);
 
     @Before
     public void setup(){
         d = LocalDate.parse(strDate1, formatter);
         dp = new DatePrice();
         p = new NewReleasePrice();
-        r = new Rental(m,1);
+        p2 = new UnpopularPrice();
         dp.addPrice(d, p);
+        dp.addPrice(d2, p2);
     }
 
     @Test
@@ -37,6 +39,8 @@ public class DatePriceTest {
 
     @Test
     public void testGetPrice(){
-       assertEquals(dp.findPriceByDate(d), p);
+        assertEquals(dp.findPriceByDate(d), p);
+        assertEquals(dp.findPriceByDate(d2), p2);
+
     }
 }

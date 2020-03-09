@@ -5,8 +5,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/pers_labo4/videoStore/DatePrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pers_labo4/videoStore/DatePrice.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/pers_labo4/videoStore/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pers_labo4/videoStore/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pers_labo4/videoStore/tests/DatePriceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pers_labo4/videoStore/tests/DatePriceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pers_labo4/videoStore/tests/RentalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pers_labo4/videoStore/tests/RentalTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/videoStore/DatePrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoStore/DatePrice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/videoStore/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoStore/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/videoStore/tests/DatePriceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoStore/tests/DatePriceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/videoStore/tests/RentalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoStore/tests/RentalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +57,7 @@
       <recent name="videoStore.Price" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.videoStore.tests in pers_labo4">
+  <component name="RunManager" selected="JUnit.DatePriceTest.testGetPrice">
     <configuration name="DatePriceTest.testAddDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pers_labo4" />
       <extension name="coverage">
@@ -86,6 +90,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RentalTest.testChangePrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pers_labo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="videoStore.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="videoStore.tests" />
+      <option name="MAIN_CLASS_NAME" value="videoStore.tests.RentalTest" />
+      <option name="METHOD_NAME" value="testChangePrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="videoStore.tests in pers_labo4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pers_labo4" />
       <extension name="coverage">
@@ -102,8 +122,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.videoStore.tests in pers_labo4" />
         <item itemvalue="JUnit.DatePriceTest.testGetPrice" />
+        <item itemvalue="JUnit.RentalTest.testChangePrice" />
+        <item itemvalue="JUnit.videoStore.tests in pers_labo4" />
         <item itemvalue="JUnit.DatePriceTest.testAddDate" />
       </list>
     </recent_temporary>
@@ -138,6 +159,11 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583765068088">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.732@0.0.1280.732" timestamp="1583764643413" />
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1280.709@0.23.1280.709" timestamp="1583765068088" />
     <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1583698395875">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
@@ -154,42 +180,42 @@
       <screen x="0" y="0" width="1280" height="732" />
     </state>
     <state x="359" y="116" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1280.732@0.0.1280.732" timestamp="1583688778888" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1583763519444">
+    <state width="1238" height="263" key="GridCell.Tab.0.bottom" timestamp="1583769294489">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.732@0.0.1280.732" timestamp="1583763519444" />
+    <state width="1238" height="263" key="GridCell.Tab.0.bottom/0.0.1280.732@0.0.1280.732" timestamp="1583769294489" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1583688832059" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1583763519443">
+    <state width="1238" height="263" key="GridCell.Tab.0.center" timestamp="1583769294487">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.732@0.0.1280.732" timestamp="1583763519443" />
+    <state width="1238" height="263" key="GridCell.Tab.0.center/0.0.1280.732@0.0.1280.732" timestamp="1583769294487" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1583688832057" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1583763519442">
+    <state width="1238" height="263" key="GridCell.Tab.0.left" timestamp="1583769294486">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.732@0.0.1280.732" timestamp="1583763519442" />
+    <state width="1238" height="263" key="GridCell.Tab.0.left/0.0.1280.732@0.0.1280.732" timestamp="1583769294486" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1583688832057" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1583763519444">
+    <state width="1238" height="263" key="GridCell.Tab.0.right" timestamp="1583769294488">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.732@0.0.1280.732" timestamp="1583763519444" />
+    <state width="1238" height="263" key="GridCell.Tab.0.right/0.0.1280.732@0.0.1280.732" timestamp="1583769294488" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1583688832058" />
-    <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1583701742332">
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1583769294492">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.0.1280.732@0.0.1280.732" timestamp="1583701742332" />
-    <state width="1238" height="263" key="GridCell.Tab.1.center" timestamp="1583701742326">
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.0.1280.732@0.0.1280.732" timestamp="1583769294492" />
+    <state width="1238" height="263" key="GridCell.Tab.1.center" timestamp="1583769294490">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.1.center/0.0.1280.732@0.0.1280.732" timestamp="1583701742326" />
-    <state width="1238" height="263" key="GridCell.Tab.1.left" timestamp="1583701742323">
+    <state width="1238" height="263" key="GridCell.Tab.1.center/0.0.1280.732@0.0.1280.732" timestamp="1583769294490" />
+    <state width="1238" height="263" key="GridCell.Tab.1.left" timestamp="1583769294489">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.1.left/0.0.1280.732@0.0.1280.732" timestamp="1583701742323" />
-    <state width="1238" height="263" key="GridCell.Tab.1.right" timestamp="1583701742330">
+    <state width="1238" height="263" key="GridCell.Tab.1.left/0.0.1280.732@0.0.1280.732" timestamp="1583769294489" />
+    <state width="1238" height="263" key="GridCell.Tab.1.right" timestamp="1583769294491">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.1.right/0.0.1280.732@0.0.1280.732" timestamp="1583701742330" />
+    <state width="1238" height="263" key="GridCell.Tab.1.right/0.0.1280.732@0.0.1280.732" timestamp="1583769294491" />
     <state x="128" y="0" key="SettingsEditor" timestamp="1583684600268">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
@@ -214,6 +240,19 @@
           <url>file://$PROJECT_DIR$/src/videoStore/Movie.java</url>
           <line>30</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/videoStore/DatePrice.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/videoStore/DatePrice.java</url>
+          <line>19</line>
+          <properties class="videoStore.DatePrice" method="findPriceByDate">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

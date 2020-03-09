@@ -73,6 +73,10 @@ public class Movie {
         return title_;
     }
 
+    public void addPrice(LocalDate date, Price price){
+        prices.addPrice(date, price);
+    }
+
     public Price getPriceCode() {
         return recentPriceCode;
     }
