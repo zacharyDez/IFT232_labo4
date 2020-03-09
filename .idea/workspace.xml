@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="181a4442-43ed-4c84-a4b6-b1b5d8aaf3d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/videoStore/ChildrensPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoStore/ChildrensPrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/videoStore/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoStore/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/videoStore/NewReleasePrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoStore/NewReleasePrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/videoStore/RegularPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoStore/RegularPrice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/videoStore/tests/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoStore/tests/CustomerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/videoStore/tests/RentalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoStore/tests/RentalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +49,71 @@
       <recent name="videoStore.Price" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CustomerTest.testChangeAmount">
+    <configuration name="CustomerTest.testChangeAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pers_labo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="videoStore.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="videoStore.tests" />
+      <option name="MAIN_CLASS_NAME" value="videoStore.tests.CustomerTest" />
+      <option name="METHOD_NAME" value="testChangeAmount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatePriceTest.testAddDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pers_labo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="videoStore.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="videoStore.tests" />
+      <option name="MAIN_CLASS_NAME" value="videoStore.tests.DatePriceTest" />
+      <option name="METHOD_NAME" value="testAddDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatePriceTest.testGetPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pers_labo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="videoStore.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="videoStore.tests" />
+      <option name="MAIN_CLASS_NAME" value="videoStore.tests.DatePriceTest" />
+      <option name="METHOD_NAME" value="testGetPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RentalTest.testChangePrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pers_labo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="videoStore.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="videoStore.tests" />
+      <option name="MAIN_CLASS_NAME" value="videoStore.tests.RentalTest" />
+      <option name="METHOD_NAME" value="testChangePrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="videoStore.tests in pers_labo4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pers_labo4" />
       <extension name="coverage">
@@ -72,7 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerTest.testChangeAmount" />
+        <item itemvalue="JUnit.DatePriceTest.testGetPrice" />
+        <item itemvalue="JUnit.RentalTest.testChangePrice" />
         <item itemvalue="JUnit.videoStore.tests in pers_labo4" />
+        <item itemvalue="JUnit.DatePriceTest.testAddDate" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +160,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583684326300</updated>
-      <workItem from="1583684333022" duration="8770000" />
+      <workItem from="1583684333022" duration="12577000" />
     </task>
     <servers />
   </component>
@@ -106,6 +168,15 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583765068088">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.732@0.0.1280.732" timestamp="1583764643413" />
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1280.709@0.23.1280.709" timestamp="1583765068088" />
+    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1583698395875">
+      <screen x="0" y="0" width="1280" height="732" />
+    </state>
+    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1280.732@0.0.1280.732" timestamp="1583698395875" />
     <state x="446" y="160" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583688777722">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
@@ -118,26 +189,42 @@
       <screen x="0" y="0" width="1280" height="732" />
     </state>
     <state x="359" y="116" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1280.732@0.0.1280.732" timestamp="1583688778888" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1583697847051">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1583769521753">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.732@0.0.1280.732" timestamp="1583697847051" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.732@0.0.1280.732" timestamp="1583769521753" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1583688832059" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1583697847049">
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1583769521752">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.732@0.0.1280.732" timestamp="1583697847049" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.732@0.0.1280.732" timestamp="1583769521752" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1583688832057" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1583697847049">
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1583769521751">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.732@0.0.1280.732" timestamp="1583697847049" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.732@0.0.1280.732" timestamp="1583769521751" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1583688832057" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1583697847050">
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1583769521753">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.732@0.0.1280.732" timestamp="1583697847050" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.732@0.0.1280.732" timestamp="1583769521753" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1583688832058" />
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1583769294492">
+      <screen x="0" y="0" width="1280" height="732" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.0.1280.732@0.0.1280.732" timestamp="1583769294492" />
+    <state width="1238" height="263" key="GridCell.Tab.1.center" timestamp="1583769294490">
+      <screen x="0" y="0" width="1280" height="732" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.center/0.0.1280.732@0.0.1280.732" timestamp="1583769294490" />
+    <state width="1238" height="263" key="GridCell.Tab.1.left" timestamp="1583769294489">
+      <screen x="0" y="0" width="1280" height="732" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.left/0.0.1280.732@0.0.1280.732" timestamp="1583769294489" />
+    <state width="1238" height="263" key="GridCell.Tab.1.right" timestamp="1583769294491">
+      <screen x="0" y="0" width="1280" height="732" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.right/0.0.1280.732@0.0.1280.732" timestamp="1583769294491" />
     <state x="128" y="0" key="SettingsEditor" timestamp="1583684600268">
       <screen x="0" y="0" width="1280" height="732" />
     </state>
@@ -154,5 +241,29 @@
       <screen x="0" y="0" width="1280" height="732" />
     </state>
     <state x="347" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.732@0.0.1280.732" timestamp="1583690894811" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/videoStore/Movie.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/videoStore/DatePrice.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/videoStore/DatePrice.java</url>
+          <line>19</line>
+          <properties class="videoStore.DatePrice" method="findPriceByDate">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -8,8 +8,18 @@ import org.junit.Test;
 
 import videoStore.*;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
 public class RentalTest {
-	
+
+	DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+	String strDate1 = "2018-12-12";
+	String strDate2 = "2020-01-01";
+	DatePrice dp;
+	LocalDate d1 = LocalDate.parse(strDate1, formatter);
+	LocalDate d2 = LocalDate.parse(strDate2, formatter);
+
 	private final double EPSILON = 0.01;
 	private Movie childMovie;
 	private Movie regularMovie;
@@ -18,10 +28,10 @@ public class RentalTest {
 	
 	@Before
 	public void setup() {
-		childMovie = Movie.createChildrenMovie("Caillou a le cancer");
-		newMovie = Movie.createNewReleaseMovie("31 Jump Street: Ninja Academy");
-		regularMovie = Movie.createRegularMovie("Les oiseaux se cachent pour mourir");
-		unpopularMovie = Movie.createUnpopularMovie("Very unpopular movie");
+		childMovie = Movie.createChildrenMovie("Caillou a le cancer", LocalDate.now());
+		newMovie = Movie.createNewReleaseMovie("31 Jump Street: Ninja Academy", LocalDate.now());
+		regularMovie = Movie.createRegularMovie("Les oiseaux se cachent pour mourir", LocalDate.now());
+		unpopularMovie = Movie.createUnpopularMovie("Very unpopular movie", LocalDate.now());
 	}
 	
 	
@@ -65,6 +75,21 @@ public class RentalTest {
 		assertEquals(regular.points(),1);
 
 		assertEquals(unpopular.points(), 3);
+	}
+
+	@Test
+	public void testChangePrice(){
+
+		Price pUnpop = new UnpopularPrice();
+		Price pNewRelease = new NewReleasePrice();
+		childMovie.addPrice(d1, pNewRelease);
+		childMovie.addPrice(d2, pUnpop);
+
+		Rental childrens = new Rental(childMovie,1);
+
+		assertEquals(3, childMovie.amount(childrens, d1), EPSILON);
+		assertEquals(2, childMovie.amount(childrens, d2), EPSILON);
+		assertEquals(1.5, childMovie.amount(childrens, LocalDate.now()));
 	}
 	
 	

@@ -15,6 +15,8 @@ public class CustomerTest {
 
 	private Customer grandmaman;
 	private Movie movies[];
+	LocalDate date;
+	Rental testDate;
 
 	@Before
 	public void setup() {
@@ -39,8 +41,8 @@ public class CustomerTest {
 		/*Exemple de création de location avec une date passée*/
 		String str = "2018-12-12";
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-		LocalDate date = LocalDate.parse(str, formatter);
-		Rental testDate = new Rental (movies[0],date,2);
+		date = LocalDate.parse(str, formatter);
+		testDate = new Rental (movies[0],date,2);
 		
 	}
 
@@ -55,6 +57,14 @@ public class CustomerTest {
 	public void testTotalPoints() {
 
 		assertEquals(grandmaman.totalPoints(), 10);
+	}
+
+	@Test
+	public void testChangeAmount() {
+		assertEquals(grandmaman.totalAmount(), 25.5, 0.0001);
+		movies[0].addPrice(date, new NewReleasePrice());
+		grandmaman.addRentals(testDate);
+		assertEquals(grandmaman.totalAmount(), 27, 0.0001);
 	}
 
 	@After
